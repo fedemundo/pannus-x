@@ -3,52 +3,34 @@
  * styles for grids, animations, color swatches, etc.
  * These styles will not be your production CSS.
  */
-#sg-patterns {
-  -webkit-box-sizing: border-box !important;
-          box-sizing: border-box !important;
-  max-width: 100%;
-  padding: 0 0.5em;
+.histogram-container {
+    border-radius: 6px;
+    border: 1px solid #D2D6D9;
+    background: #fff;
 }
 
-.demo-animate {
-  background: #ddd;
-  padding: 1em;
-  margin-bottom: 1em;
-  text-align: center;
-  border-radius: 8px;
-  cursor: pointer;
+.histogram {
+    display: table;
+    width: 100%;
+    height: 60px;
+    margin-top: 0;
+    margin-bottom: 1px;
+    table-layout: fixed;
+    background-color: transparent;
 }
-
-.sg-colors {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  list-style: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
+.histogram li {
+    position: relative;
+    display: table-cell;
+    height: 60px;
+    vertical-align: bottom;
 }
-.sg-colors li {
-  -webkit-box-flex: 1;
-      -ms-flex: auto;
-          flex: auto;
-  padding: 0.3em;
-  margin: 0 0.5em 0.5em 0;
-  min-width: 5em;
-  max-width: 14em;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+.histogram li span {
+    display: block;
+    animation: draw 1s ease-in-out;
+    border: 1px solid #fff;
+    border-bottom: 0;
+    background-color: #E8F4FD;
 }
-
-.sg-swatch {
-  display: block;
-  height: 4em;
-  margin-bottom: 0.3em;
-  border-radius: 5px;
-}
-
-.sg-label {
-  font-size: 90%;
-  line-height: 1;
+.histogram .min-value {
+    background-color: #073590;
 }

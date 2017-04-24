@@ -1,75 +1,117 @@
 {
-  "key": "value",
-  "key2": "use this for variables you want to load globally",
-  "title": "Nullizzle shizznit velizzle, hizzle, suscipit own yo', gravida vizzle, arcu.",
-  "img": {
-    "avatar": {
-      "src": "http://placeimg.com/100/100/people",
-      "alt": "Avatar"
-    },
-    "square": {
-      "src": "http://placeimg.com/300/300/nature",
-      "alt": "Square"
-    },
-    "rectangle": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "Rectangle"
-    },
-    "landscape-4x3": {
-      "src": "http://placeimg.com/400/300/tech",
-      "alt": "4x3 Image"
-    },
-    "landscape-16x9": {
-      "src": "http://placeimg.com/640/360/tech",
-      "alt": "16x9 Image"
-    }
-  },
-  "headline": {
-    "short": "Lorizzle pimpin' dolizzle sit amet I",
-    "medium": "Rizzle adipiscing elizzle. Nullam sapien velizzle, shit volutpizzle, my"
-  },
-  "excerpt": {
-    "short": "Shizz fo shizzle mah nizzle fo rizzle, mah home g-dizzle, gravida vizzle, arcu. Pellentesque crunk tortizzle. Sed erizzle. Black izzle sheezy telliv.",
-    "medium": "Izzle crazy tempizzle sizzle. We gonna chung gangsta get down get down fo shizzle turpizzle. Away break it down black. Pellentesque bling bling rhoncus fo shizzle. In hac the bizzle platea dictumst. Black dapibizzle. Crackalackin.",
-    "long": "Curabitizzle fo shizzle diam quizzle nisi nizzle mollizzle. Suspendisse boofron. Morbi odio. Sure pizzle. Crazy orci. Shut the shizzle up maurizzle get down get down, check out this a, go to hizzle sit amizzle, malesuada izzle, pede. Pellentesque gravida. Vestibulizzle check it out mi, volutpat izzle, shiz sed, shiznit sempizzle, da bomb. Funky fresh in ipsum. Da bomb volutpat felis vizzle daahng dawg. Crizzle quis dope izzle fo shizzle my ni."
-  },
-  "description": "Fizzle crazy tortor. Sed rizzle. Ass pimpin' dolor dapibizzle turpis tempizzle fo shizzle my nizzle. Maurizzle pellentesque its fo rizzle izzle turpis. Get down get down we gonna chung nizzle. Shizzlin dizzle eleifend rhoncizzle break it down. In yo ghetto platea dictumst. Bling bling dapibizzle. Curabitur break yo neck, yall fo, pretizzle eu, go to hizzle dope, own yo' vitae, nunc. Bizzle suscipizzle. Ass semper velit sizzle fo.",
-  "url": "http://lorizzle.nl/",
-  "name": {
-    "first": "Junius",
-    "firsti": "J",
-    "middle": "Marius",
-    "middlei": "M",
-    "last": "Koolen",
-    "lasti": "K"
-  },
-  "year": {
-    "long": "2013",
-    "short": "13"
-  },
-  "month": {
-    "long": "January",
-    "short": "Jan",
-    "digit": "01"
-  },
-  "dayofweek": {
-    "long": "Sunday",
-    "short": "Sun"
-  },
-  "day": {
-    "long": "01",
-    "short": "1",
-    "ordinal": "st"
-  },
-  "hour": {
-    "long": "06",
-    "short": "6",
-    "military": "06",
-    "ampm": "am"
-  },
-  "minute": {
-    "long": "20",
-    "short": "20"
-  },
-  "seconds": "31"
+	"title" : "Pattern Lab",
+	"heading" : "Page Header",
+	"subheading" : "Subtext For Header",
+	"text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+	"url" : "#",
+	"cta" : "Call To Action",
+	"placeholder" : "Placeholder Text",
+	"listItem" : "List Item",
+	"listItemNested" : "Nested List Item",
+	"term" : "Term",
+	"definition" : "This is the definition of the term.",
+	"badge" : "23",
+	"buttonClass" : "",
+	"shareButton" : false,
+	"cardActionsClass" : "mdl-card--border",
+	"headerClass" : "",
+	"linkList" : [
+		{"text" : "Link 1"},
+		{"text" : "Link 2"},
+		{"text" : "Link 3"},
+		{"text" : "Link 4"}
+	],
+	"searchButton" : "search",
+	"tabsClass" : "",
+	"tabList" : [
+		{
+			"url" : "#id-1",
+			"text" : "Tab 1",
+			"activeClass" : "is-active"
+		},
+		{
+			"url" : "#id-2",
+			"text" : "Tab 2"
+		},
+		{
+			"url" : "id-3",
+			"text" : "Tab 3"
+		},
+		{
+			"url" : "#id-4",
+			"text" : "Tab 4"
+		}
+	],
+	"contentList" : [
+		{
+			"url" : "id-1",
+			"activeClass" : "is-active"
+		},
+		{
+			"url" : "id-2"
+		},
+		{
+			"url" : "id-3"
+		},
+		{
+			"url" : "id-4"
+		}
+	],
+	"columnClass" : "mdl-cell--1-col",
+	"gridList" : [
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"},
+		{"text" : "1 Column"}
+	],
+	"progressBarClass" : "",
+	"progressBarNumber" : "30",
+	"spinnerColorClass" : "",
+	"menuIcon" : "more_vert",
+	"menuClass" : "mdl-menu--bottom-left mdl-js-ripple-effect",
+	"sliderMin" : "0",
+	"sliderMax" : "100",
+	"sliderValue" : "0",
+	"tableClass" : "mdl-data-table--selectable mdl-shadow--2dp",
+	"table" : {
+	  "thead" : {
+		  "th" : [
+			  { 
+				  "title" : "Table Heading 1",
+				  "nonnumericClass" : true
+			  },
+			  { "title" : "Table Heading 2" },
+			  { "title" : "Table Heading 3" },
+			  { "title" : "Table Heading 4" }
+		  ]
+	  },
+		"tbody" : {
+			"tr" : [
+				{
+					"td" : [
+						{ 
+							"text" : "row 1 cell 1",
+							"nonnumericClass" : true 
+						},
+						{ "text" : "row 1 cell 2" },
+						{ "text" : "row 1 cell 3" },
+						{ "text" : "row 1 cell 4" }
+					]
+				}
+			]
+		}	
+	},
+	"checkboxClass" : "mdl-js-ripple-effect",
+	"checkboxLabel" : "Checkbox",
+	"checkedCheckbox" : "checked",
+	"radioClass" : "mdl-js-ripple-effect",
+	"radioLabel" : "First",
+	"checkedRadio" : "",
+	"iconToggleClass" : "mdl-js-ripple-effect",
+	"iconToggleText" : "format_bold",
+	"switchClass" : "mdl-js-ripple-effect",
+	"tooltipClass" : "",
+	"tooltipIcon" : "add"
 }
